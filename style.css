@@ -22,7 +22,7 @@ body {
 
 .container {
     padding: 30px;
-    background-color:chartreuse;
+    background-color:aqua;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -59,7 +59,7 @@ button:hover {
 }
 
 #scissors {
-    background-color:dodgerblue ;
+    background-color:crimson ;
 }
 
 p {
