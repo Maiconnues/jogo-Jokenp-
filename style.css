@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
+    display: flex;
+    /* usado para centralizar, habilita super poderes*/
+    justify-content: center;
+    /*usado para centralizar na horizontal*/
+    align-items: center;
+    /* usado para centralizar na vertical*/
+    min-height: 100vh;
+    /* usado para tamanho minimo da tela, 100vh usa tela toda, ai centraliza altura*/
+
+}
+
+.container {
+    padding: 30px;
+    background-color:chartreuse;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 13px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none; /*sem borda*/
+    border-radius: 15px;
+    transition: opacity 0.5s ease-in-out;/* vai mudar colocando o mause e tirando*/
+}
+
+button:hover {
+    opacity: 0.6; /* opacity nos buttons*/
+}
+
+.buttons {
+    margin: 30px 0;
+    display: flex; /* para usar o gap tem que ser "flex"*/
+    gap: 30px; /* coloca distancia no meio dos buttons*/
+    
+}
+
+#stone {
+    background-color:limegreen ;
+}
+
+#paper {
+    background-color:blueviolet;
+}
+
+#scissors {
+    background-color:dodgerblue ;
+}
+
+p {
+    font-weight:bold;
+    margin-bottom: 10px;
+}
+
+.your-score span{
+    color:rgb(0, 47, 255);
+}
+
+.machine-score span{
+    color:crimson;
+}
+
+
