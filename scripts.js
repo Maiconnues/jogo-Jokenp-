@@ -48,14 +48,13 @@ const playTheGame = (human, machine) => {
 
     } else if ((human === 'papel' && machine === 'pedra') ||
         (human === 'pedra' && machine === 'tesoura') ||
-        (human === 'tesoura' && machine === 'papel')) 
-        
-        { humanScoreNumber++
-            humanScore.innerHTML = humanScoreNumber
-    
-            result.innerHTML = `Você Ganhou!😁`
+        (human === 'tesoura' && machine === 'papel')) {
+        humanScoreNumber++
+        humanScore.innerHTML = humanScoreNumber
 
-        
+        result.innerHTML = `Você Ganhou!😁`
+
+
 
     } else {
 
