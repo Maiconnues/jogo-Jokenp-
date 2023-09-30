@@ -50,15 +50,15 @@ button:hover {
     
 }
 
-#stone {
+#pedra {
     background-color:chartreuse;
 }
 
-#paper {
+#papel {
     background-color:blueviolet;
 }
 
-#scissors {
+#tesoura {
     background-color:crimson ;
 }
 

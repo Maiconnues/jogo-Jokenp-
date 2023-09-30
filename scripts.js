@@ -13,15 +13,15 @@ let machineScoreNumber = 0
 machineScoreNumber -> Camel Case
 GAME_OPTIONS -> Snake case
 
-*/
-// ENUMS
+
+ ENUMS
 const GAME_OPTIONS = {
     STONE: 'stone',
     PAPER: 'paper',
     SCISSORS: 'scissors'
 
 }
-
+*/
 
 const playHuman = (humanChoice) => {
 
@@ -30,7 +30,7 @@ const playHuman = (humanChoice) => {
 
 const playMachine = () => {
 
-    const choices = [GAME_OPTIONS.STONE, GAME_OPTIONS.PAPER, GAME_OPTIONS.SCISSORS]
+    const choices = ['pedra', 'papel', 'tesoura']
 
     const randomNumber = Math.floor(Math.random() * 3) // criação aleatorio numeros(floor aredonda pr baixo)
 
@@ -44,22 +44,22 @@ const playTheGame = (human, machine) => {
 
     if (human === machine) {
 
-        result.innerHTML = "Deu Empate!"
+        result.innerHTML = "Deu Empate"
 
-    } else if ((human === 'paper' && machine === 'stone') ||
-        (human === 'stone' && machine === 'scissors') ||
-        (human === 'scissors' && machine === 'paper')) {
+    } else if ((human === 'papel' && machine === 'pedra') ||
+        (human === 'pedra' && machine === 'tesoura') ||
+        (human === 'tesoura' && machine === 'papel')) {
 
         humanScoreNumber++
         humanScore.innerHTML = humanScoreNumber
 
-        result.innerHTML = ' Você Ganhou!'
+        result.innerHTML = `Você Ganhou!`
 
     } else {
 
         machineScoreNumber++
         machineScore.innerHTML = machineScoreNumber
-        result.innerHTML = ' Alexia Ganhou!'
+        result.innerHTML = `Alexia Ganhou! A máquina escolheu ${machine.toUpperCase()}`
     }
 
 
