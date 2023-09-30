@@ -51,7 +51,9 @@ button:hover {
 }
 
 #pedra {
-    background-color:chartreuse;
+    background-color:lime;
+
+    
 }
 
 #papel {
