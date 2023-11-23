@@ -60,7 +60,7 @@ const playTheGame = (human, machine) => {
 
         machineScoreNumber++
         machineScore.innerHTML = machineScoreNumber
-        result.innerHTML = `Alexia Ganhou😜! A máquina escolheu ${machine.toUpperCase()}`
+        result.innerHTML = `Kaka Ganhou😜! A máquina escolheu ${machine.toUpperCase()}`
     }
 
 

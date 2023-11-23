@@ -22,7 +22,7 @@ body {
 
 .container {
     padding: 30px;
-    background-color:aqua;
+    background-color:rgb(255, 0, 234);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
