@@ -32,7 +32,7 @@ const playMachine = () => {
 
     const choices = ['pedra', 'papel', 'tesoura']
 
-    const randomNumber = Math.floor(Math.random() * 3) // criação aleatorio numeros(floor aredonda pr baixo)
+    const randomNumber = Math.floor(Math.random() * 3) // criação aleatorio numeros(floor aredonda pra baixo)
 
     return choices[randomNumber]
 
