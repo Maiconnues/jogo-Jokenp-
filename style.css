@@ -25,6 +25,7 @@ body {
     background-color:rgb(205, 50, 197);
     border-radius: 20px;
     display: flex;
+    
     flex-direction: column;
     justify-content: center;
     align-items: center;
